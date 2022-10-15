@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "809247480743",
+    "project_id": "mubeeproject",
+    "storage_bucket": "mubeeproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809247480743:android:f826298a82ced12d39b482",
+        "android_client_info": {
+          "package_name": "hmtechagency.mubeenproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809247480743-3sng1gribkof6icakrj5imnio8u1u2sb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApecIDg2sUikR-8tazSRViNw4Op6MQ_L4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809247480743-3sng1gribkof6icakrj5imnio8u1u2sb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

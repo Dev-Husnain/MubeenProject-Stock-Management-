@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/radio_back_main"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select range"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <RadioGroup
+        android:id="@+id/groupCurrentMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:elevation="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/currentMonthRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@color/fui_transparent"
+                android:background="@drawable/radio_selector"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:checked="true"
+                android:textColor="@drawable/text_color_radio"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:text="Current Month"/>
+            <RadioButton
+                android:id="@+id/lastThirtyRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@drawable/text_color_radio"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:button="@color/fui_transparent"
+                android:background="@drawable/radio_selector"
+                android:layout_marginLeft="30dp"
+                android:text="Last 30 Days"/>
+
+        <RadioButton
+            android:id="@+id/lastSixtyRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@color/fui_transparent"
+            android:background="@drawable/radio_selector"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@drawable/text_color_radio"
+            android:layout_weight="1"
+            android:layout_marginRight="30dp"
+            android:text="Last 60 Days"/>
+        <RadioButton
+            android:id="@+id/CurrentYearRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="@drawable/text_color_radio"
+            android:layout_marginRight="30dp"
+            android:button="@color/fui_transparent"
+            android:background="@drawable/radio_selector"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Current Year"/>
+        <RadioButton
+            android:id="@+id/lastNinetyRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="@color/fui_transparent"
+            android:background="@drawable/radio_selector"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="@drawable/text_color_radio"
+            android:layout_weight="1"
+            android:layout_marginRight="30dp"
+            android:text="Last 90 Days"/>
+        <RadioButton
+            android:id="@+id/CurrentWeekRadio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="@drawable/text_color_radio"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:button="@color/fui_transparent"
+            android:background="@drawable/radio_selector"
+            android:layout_marginLeft="30dp"
+            android:text="Current Week"/>
+
+
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/CancelRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3C3737"
+            android:gravity="center"
+            android:text="Cancel"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp" />
+
+        <Button
+            android:id="@+id/OKRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="OK"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:cornerRadius="15dp" />
+    </LinearLayout>
+
+</LinearLayout>

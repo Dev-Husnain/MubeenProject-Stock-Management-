@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/drawable/add_products_back.xml" value="0.15462962962962962" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/drawable/back_back_back.xml" value="0.1537037037037037" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/drawable/btn_login.xml" value="0.1" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/drawable/edit_text_style.xml" value="0.22552083333333334" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/drawable/radio_back_main.xml" value="0.15462962962962962" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/drawable/radio_normal.xml" value="0.15462962962962962" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/drawable/radio_selected.xml" value="0.15462962962962962" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/drawable/radio_selector.xml" value="0.15462962962962962" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/drawable/text_color_radio.xml" value="0.15462962962962962" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout-w1240dp/add_products_dialog.xml" value="0.5" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_add_cost.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_add_customers.xml" value="0.16" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_add_expenses.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_add_new_products.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_add_suppliersactivity.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_billing.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_billing_detail.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_cost.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_customers.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_expenses.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_issue_products.xml" value="0.22" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_log_in.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_performance_main.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_products.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_products_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_received_product.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_reports_details.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_scrolling.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_select_customer.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_select_suppliers.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_sign_up.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/activity_suppliers.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/add_products_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/billing_recycler_sample.xml" value="0.16" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/customers_recyclerview_sample.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/expenses_recycler_sample.xml" value="0.22" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/month_picker_sample.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/payment_recived_layout_sample.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/products_recycler_sample.xml" value="0.22" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/produts_details_sample_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/recycler_view_sample.xml" value="0.22" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/reports_detail_recycler_sample.xml" value="0.18" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/sales_custome_dialog_sample.xml" value="0.2" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/update_customer_sample_dialog.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/update_products_detail.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/week_wise_number_picker_sample.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/layout/year_picker_sample.xml" value="0.209375" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/menu/main_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android Projects/MubeenProject/app/src/main/res/menu/menu_search.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

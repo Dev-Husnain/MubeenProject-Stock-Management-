@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1EEEE"
+    tools:context=".AddSuppliersactivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4361ee"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/iconBackAddSuppliers"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            app:tint="@color/white"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="Add Supplier"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/iconSaveSuppliersRick"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|end"
+            app:civ_border_width="2dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/action_done_tick"
+            app:tint="@color/white" />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/palanquin_dark"
+                android:text="Name"
+                android:textColor="#352F2F"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/supplierNameAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/edit_text_style"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/palanquin_dark"
+                android:text="Email"
+                android:textColor="#352F2F"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/supplierEmailAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="5dp"
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/edit_text_style"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/palanquin_dark"
+                android:text="Phone"
+                android:textColor="#352F2F"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/supplierPhoneAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:paddingLeft="5dp"
+                android:inputType="number"
+                android:background="@drawable/edit_text_style"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/palanquin_dark"
+                android:text="Address"
+                android:textColor="#352F2F"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/supplierAddressAdd"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="5dp"
+                android:gravity="top"
+                android:text="None"
+                android:inputType="textMultiLine"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/edit_text_style"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/palanquin_dark"
+                android:text="Bank details"
+                android:textColor="#352F2F"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/supplierBankDetailsAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="5dp"
+                android:inputType="text"
+                android:text="None"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/edit_text_style"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/palanquin_dark"
+                android:text="Discount"
+                android:textColor="#352F2F"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/supplierDiscountAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:inputType="number"
+                android:text="0.0"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/edit_text_style"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/palanquin_dark"
+                android:text="Notes"
+                android:textColor="#352F2F"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/supplierNotestAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:inputType="textMultiLine"
+                android:paddingLeft="5dp"
+                android:gravity="top"
+                android:text="None"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_text_style"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            app:neumorph_shadowColorDark="@color/dark_shadow"
+            app:neumorph_shadowColorLight="@color/light_shadow"
+            app:neumorph_shadowElevation="@dimen/_5sdp"
+            app:neumorph_shapeAppearance="@style/NeumorphismCard">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <soup.neumorphism.NeumorphCardView
+                    android:id="@+id/cardPic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:neumorph_shadowElevation="@dimen/_3sdp"
+                    app:neumorph_shapeType="pressed">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/ic_round_account"/>
+
+                </soup.neumorphism.NeumorphCardView>
+
+                    <TextView
+                        android:id="@+id/userNameList"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="User Name"
+                        android:padding="@dimen/_5sdp"
+                        android:textSize="20sp"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black"/>
+                <ImageView
+                    android:id="@+id/picOptionMenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:tint="@color/black"
+                    android:src="@drawable/ic_menu_vertical_24"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="10dp"/>
+            </LinearLayout>
+
+        </soup.neumorphism.NeumorphCardView>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+

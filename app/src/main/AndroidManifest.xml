@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hmtechagency.mubeenproject">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MubeenProject">
+        <activity
+            android:name=".AddCost"
+            android:exported="false" />
+        <activity
+            android:name=".CostActivity"
+            android:exported="false"
+            android:label="Cost Record"
+            android:parentActivityName=".CostActivity" />
+        <activity
+            android:name=".ReportsDetails"
+            android:exported="true" />
+        <activity
+            android:name=".PerformanceMain"
+            android:exported="true" />
+        <activity
+            android:name=".BillingDetail"
+            android:exported="true" />
+        <activity
+            android:name=".Billing"
+            android:exported="true"
+            android:label="Billing"
+            android:parentActivityName=".Billing" />
+        <activity
+            android:name=".AddExpenses"
+            android:exported="true" />
+        <activity
+            android:name=".ExpensesActivity"
+            android:exported="true"
+            android:label="Expenses"
+            android:parentActivityName=".ExpensesActivity" />
+        <activity
+            android:name=".AddNewProducts"
+            android:exported="true"
+            android:label="Add Product"
+            android:parentActivityName=".AddNewProducts" />
+        <activity
+            android:name=".ReceivedProduct"
+            android:exported="true" />
+        <activity
+            android:name=".SelectSuppliers"
+            android:exported="true"
+            android:label="Select Supplier"
+            android:parentActivityName=".SelectSuppliers" />
+        <activity
+            android:name=".IssueProducts"
+            android:exported="true" />
+        <activity
+            android:name=".SelectCustomer"
+            android:exported="true"
+            android:label="Select Customer" />
+        <activity
+            android:name=".AddSuppliersactivity"
+            android:exported="true" />
+        <activity
+            android:name=".SuppliersActivity"
+            android:exported="true"
+            android:label="Suppliers"
+            android:parentActivityName=".SuppliersActivity" />
+        <activity
+            android:name=".AddCustomersActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CustomersActivity"
+            android:exported="true"
+            android:label="Customers"
+            android:parentActivityName=".CustomersActivity" />
+        <activity
+            android:name=".ProductsDetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProductsActivity"
+            android:exported="true"
+            android:label="Goods"
+            android:parentActivityName=".ProductsActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Indus Project">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

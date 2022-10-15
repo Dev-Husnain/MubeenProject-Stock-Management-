@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#C6CACF"
+    android:orientation="vertical"
+    tools:context=".PerformanceMain">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4361ee"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/iconBackAddPerformance"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            app:tint="@color/white"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_baseline_arrow_back_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text="Performance "
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/customersReportCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="?selectableItemBackground"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sales by \nCustomer Report"
+                        android:padding="10dp"
+                        android:lineSpacingExtra="10dp"
+                        android:layout_marginBottom="@dimen/_20sdp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#C6CACF"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="35dp"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_marginBottom="7dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/documents_icon"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="35dp"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_marginBottom="7dp"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="right"
+                                android:backgroundTint="@color/black"
+                                android:background="@drawable/ic_baseline_arrow_forward_ios_24"/>
+                        </LinearLayout>
+
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/supplierReportCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="?selectableItemBackground"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Purchases by \nSupplier Report"
+                        android:lineSpacingExtra="10dp"
+                        android:padding="10dp"
+                        android:layout_marginBottom="@dimen/_20sdp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#C6CACF"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="35dp"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_marginBottom="7dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/documents_icon"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="35dp"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_marginBottom="7dp"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="right"
+                                android:backgroundTint="@color/black"
+                                android:background="@drawable/ic_baseline_arrow_forward_ios_24"/>
+                        </LinearLayout>
+
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/monthWiseSaleReport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="?selectableItemBackground"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Month Wise \nSales Report"
+                       android:lineSpacingExtra="10dp"
+                        android:padding="10dp"
+                        android:layout_marginBottom="@dimen/_20sdp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#C6CACF"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="35dp"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_marginBottom="7dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/documents_icon"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="35dp"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_marginBottom="7dp"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="right"
+                                android:backgroundTint="@color/black"
+                                android:background="@drawable/ic_baseline_arrow_forward_ios_24"/>
+                        </LinearLayout>
+
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/weekWiseReportCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="?selectableItemBackground"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Week Wise \nSales Report"
+                        android:lineSpacingExtra="10dp"
+                        android:padding="10dp"
+                        android:layout_marginBottom="@dimen/_20sdp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#C6CACF"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="35dp"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_marginBottom="7dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/documents_icon"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="35dp"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_marginBottom="7dp"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="right"
+                                android:backgroundTint="@color/black"
+                                android:background="@drawable/ic_baseline_arrow_forward_ios_24"/>
+                        </LinearLayout>
+
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/yearWiseSaleReport"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="?selectableItemBackground"
+                android:layout_marginRight="@dimen/_50sdp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Year Wise \nSales Report"
+                        android:lineSpacingExtra="10dp"
+                        android:padding="10dp"
+                        android:layout_marginBottom="@dimen/_20sdp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#C6CACF"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="35dp"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_marginBottom="7dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/documents_icon"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:layout_width="35dp"
+                                android:layout_height="30dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_marginBottom="7dp"
+                                android:layout_marginLeft="10dp"
+                                android:gravity="right"
+                                android:backgroundTint="@color/black"
+                                android:background="@drawable/ic_baseline_arrow_forward_ios_24"/>
+                        </LinearLayout>
+
+
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
